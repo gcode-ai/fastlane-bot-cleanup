@@ -1,0 +1,74 @@
+*/__delme__/*
+delme
+__pycache__/*
+*.pyc
+*/out/*
+*.pdf
+topaze
+*.gif
+*.json
+
+.sourcery.yaml
+.DS_Store
+.idea/*
+.idea/modules.xml
+.idea/v4-math-and-theory.iml
+*.xml
+*.iml
+*.sqlite
+.hypothesis
+.ipynb_checkpoints
+carbon/tools/*
+*/.idea/*
+*/.vscode/*
+*/.pytest_cache/*
+*/.cache/*
+*/.coverage
+*/.coverage.*
+*/.cover
+NBTest/carbon/*
+NBTest/carbon
+resources/NBTest/fastlane_bot
+
+/.env
+*.env
+
+# Ignore all files in the build directory
+build/
+
+# Ignore all files in the dist directory
+dist/
+
+# Ignore all files in the .eggs directory
+.eggs/
+*.egg-info
+*.egg
+*.egg-info/*
+
+# Ignore all files in the .tox directory
+.tox/
+
+# Ignore all files in the .venv directory
+.venv/
+
+# Ignore all files in the .mypy_cache directory
+.mypy_cache/
+
+# Ignore all files in the .pytest_cache directory
+.pytest_cache/
+
+# Ignore all files in the .coverage directory
+.coverage
+
+# Ignore all files in the .coverage.* directory
+.coverage.*
+fastlane_bot/data/combined_tables_old.csv
+latest_event_data.json
+latest_pool_data.json
+missing_events.json
+*.log
+logs/*
+/token_details.csv
+/fastlane_bot/data/blockchain_data/*/token_detail/
+missing_tokens_df.csv
+tokens_and_fee_df.csv
